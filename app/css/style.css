@@ -1,0 +1,66 @@
+body {
+  background:#efefef;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0 50px;
+}
+
+.holder {
+  width:calc(395px * 5);
+}
+
+.forecast-module {
+  height:667px;
+  width:375px;
+  float:left;
+  overflow: auto;
+  margin:30px 0;
+  border:1px solid grey;
+  color:white;
+  position:relative;
+  margin-left:10px;
+}
+
+.forecast-module--inner-container {
+  margin:0 auto;
+  padding:20px;
+  line-height:1;
+}
+
+.sky-gradient-07 {
+  background: linear-gradient(to bottom, #757abf 0%,#8583be 60%,#eab0d1 100%);
+}
+
+.forecast-module--location {
+  position: absolute;
+  bottom:0;
+  right:20px;
+  font-size:50px;
+}
+
+.forecast-module--date{
+  font-size:40px;
+  font-weight: 300;
+  margin-top:40px;
+}
+
+.forecast-module--description {
+  font-size:40px;
+  font-weight: 300;
+}
+
+.forecast-module--temperature {
+  font-size:240px;
+}
+
+.cool {
+  background: #89C4F4;
+}
+
+.mid {
+  background: #F5D76E;
+}
+
+.hot {
+  background: #E74C3C;
+}
